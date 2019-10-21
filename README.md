@@ -6,6 +6,8 @@ A CLI tool for hiding the application's icon in the Dock. (MacOS Dock栏软件�
 
 ```shell
 pip install leaf-cli
+# New features
+pip install git+https://github.com/howie6879/leaf
 leaf-cli --help
 ```
 
