@@ -34,7 +34,7 @@ def change_app_plist(app_name: str, status: bool = True):
             print(f"{app_name} icon is {'hidden' if status else 'shows'} successfully, Please restart it.")
     else:
         output = f"Please make sure the app_name is correct, {app_name} is not in /Applications."
-        print("\033[1;31;40m" + output)
+        print("\033[1;31;40m" + output + "\033[0m")
 
 
 def execute():
